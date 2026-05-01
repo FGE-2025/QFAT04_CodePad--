@@ -1,0 +1,12 @@
+{
+  "default_name": "Log",
+  "base": "text",
+  "extensions": [
+    "log",
+    "lis"
+  ],
+  "case_sensitive": false,
+  "builtin": true,
+  "comment_prefixes": [],
+  "keywords": []
+}

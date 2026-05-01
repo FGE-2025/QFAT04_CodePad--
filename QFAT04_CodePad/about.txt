@@ -1,0 +1,79 @@
+QFAT04 CodePad--
+
+A professional-grade, extensible code editor for QGIS.
+Inspired by the versatility of Notepad++ and the power of VS Code,
+QFAT04 CodePad-- brings a simplified development environment
+directly into your GIS workflow.
+
+While purpose-built for TUFLOW hydraulic modellers, it functions
+as a high-performance, general-purpose editor for any QGIS power user.
+
+Core Features:
+  12 built-in languages • 8 base syntax engines
+  3-tier colour architecture • Theme Editor • Language Editor
+  Find / Replace with inline results tree (collapsible, clickable)
+  Find All / Replace All across all open files
+  Code folding • Line numbers • Word wrap • Zoom
+  QScintilla backend with visible-only styling for large files
+
+Display Modes:
+  Docked mode — attached to QGIS main window
+  Floating window mode — standalone window with min/max/close
+  Always-on-top toggle (pin button when floating)
+  Dock position, size, and mode persist across QGIS restarts
+
+Script Runner:
+  F5 — Run internal (output to Console panel via QProcess)
+  F6 — Run external (opens OS terminal window)
+  Supports Python, Batch/CMD, PowerShell, R
+  Configurable interpreter paths in Preferences
+
+Built-in Languages:
+  TUFLOW Classic/HPC, Batch/CMD, PowerShell, Python, R,
+  SQL, HTML/XML, Markdown, YAML, JSON, Log, Plain Text
+
+Base Engines:
+  tuflow, batch, powershell, python, r, sql, html, text
+
+Addon System:
+  Modular addon architecture — drop .py files in addons/ folder
+  100 dock helper methods for addon developers
+  Hooks: on_startup, on_shutdown, on_enable, on_disable,
+         on_file_opened, on_file_saved, on_tab_changed,
+         run_handler, panel, toolbar_button, shortcuts,
+         editor_context_builder, settings_dialog, and more
+  Live enable/disable for signal-based addons (no restart needed)
+  Addon Manager with sortable columns and status indicators
+
+Built-in Addons:
+  Fuzzy Loader — extract and open file references from text
+  Fuzzy Locator — find matching layers in QGIS layer tree
+  Fuzzy Creator — create missing GIS files from references
+  Fuzzy Exporter — copy GIS files + sidecars to destination
+  File Reference Panel — shows all files referenced in active document
+  Outline Panel — structural outline (TUFLOW commands, batch labels, PS functions)
+  FileTab+ — enhanced file/tab browser panel
+  Selection Highlighter — highlight all occurrences of selected word
+  Python Console — run Python scripts from editor buffer (F5)
+  Tab Restore — save/restore open tabs with QGIS project
+  Word Count — live word/line/character count panel
+
+Keyboard Shortcuts:
+  Ctrl+F  Search bar       Ctrl+H  Search + Replace
+  F3      Find next        Shift+F3  Find prev
+  F5      Run internal     F6      Run external
+  Ctrl+S  Save             Ctrl+Shift+S  Save As
+  Ctrl+N  New tab          Ctrl+W  Close tab
+  Ctrl++  Zoom in          Ctrl+-  Zoom out
+
+Drag & Drop:
+  Drop files onto QGIS map canvas to open in CodePad
+  Drop files onto tab bar to open
+  Configurable file extension filter in Preferences
+
+This tool is part of QFAT (QGIS Flood Analysis Toolkit) — a set
+of focused QGIS utilities designed to support flood modelling
+workflows (e.g. TUFLOW, HEC-RAS), hydraulic QA, and rapid
+engineering checks.
+
+Author: FG

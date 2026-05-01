@@ -1,0 +1,40 @@
+{
+  "default_name": "PowerShell",
+  "base": "powershell",
+  "extensions": [
+    "ps1"
+  ],
+  "case_sensitive": false,
+  "builtin": true,
+  "comment_prefixes": [
+    "#"
+  ],
+  "keywords": [],
+  "keyword_groups": [
+    "param\nfunction\nforeach\nif\nelse\nelseif\nswitch\nreturn\ntry\ncatch\nthrow",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [
+    "$..."
+  ]
+}

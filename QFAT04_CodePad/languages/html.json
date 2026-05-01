@@ -1,0 +1,101 @@
+{
+  "default_name": "HTML/XML",
+  "base": "html",
+  "extensions": [
+    "html",
+    "htm",
+    "xml",
+    "xhtml",
+    "svg",
+    "qgs",
+    "qml"
+  ],
+  "comment_prefixes": [
+    "<!--"
+  ],
+  "case_sensitive": false,
+  "builtin": true,
+  "keywords": [
+    "html",
+    "head",
+    "body",
+    "div",
+    "span",
+    "p",
+    "a",
+    "img",
+    "table",
+    "tr",
+    "td",
+    "th",
+    "ul",
+    "ol",
+    "li",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "form",
+    "input",
+    "button",
+    "select",
+    "option",
+    "textarea",
+    "label",
+    "script",
+    "style",
+    "link",
+    "meta",
+    "title",
+    "header",
+    "footer",
+    "nav",
+    "section",
+    "article",
+    "aside",
+    "main",
+    "br",
+    "hr"
+  ],
+  "keyword_groups": [
+    "html\nhead\nbody\ndiv\nspan\np\na\nimg\ntable\ntr\ntd\nth\nul\nol\nli\nh1\nh2\nh3\nh4\nh5\nh6\nform\ninput\nbutton\nselect\noption\ntextarea\nlabel\nscript\nstyle\nlink\nmeta\ntitle\nheader\nfooter\nnav\nsection\narticle\naside\nmain\nbr\nhr",
+    "class\nid\nhref\nsrc\nalt\ntype\nvalue\nname\nstyle\nwidth\nheight\naction\nmethod\nrel\ncontent\ncharset\nviewBox\nxmlns\nfill\nstroke\ntransform\ndata\nrole\naria",
+    "qgis\nmaplayer\npipe\nrenderer-v2\nsymbol\nlayer\ncategories\ncategory\ncolorramp\nprops\nprop\nedittypes\nedittype\nattributetableconfig\ncolumn",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [],
+  "operators1": "= / >",
+  "delimiters": [
+    {
+      "open": "\"",
+      "escape": "\\",
+      "close": "\""
+    },
+    {
+      "open": "'",
+      "escape": "\\",
+      "close": "'"
+    }
+  ],
+  "folding": {}
+}

@@ -1,0 +1,103 @@
+{
+  "default_name": "R",
+  "base": "r",
+  "extensions": [
+    "r",
+    "R",
+    "rmd",
+    "Rmd"
+  ],
+  "comment_prefixes": [
+    "#"
+  ],
+  "case_sensitive": true,
+  "builtin": true,
+  "keywords": [
+    "if",
+    "else",
+    "repeat",
+    "while",
+    "function",
+    "for",
+    "in",
+    "next",
+    "break",
+    "return",
+    "switch",
+    "tryCatch",
+    "try",
+    "stop",
+    "warning",
+    "message",
+    "on.exit",
+    "sys.call",
+    "TRUE",
+    "FALSE",
+    "NULL",
+    "NA",
+    "NA_integer_",
+    "NA_real_",
+    "NA_complex_",
+    "NA_character_",
+    "Inf",
+    "NaN",
+    "library",
+    "require",
+    "source",
+    "setwd",
+    "getwd"
+  ],
+  "keyword_groups": [
+    "if\nelse\nrepeat\nwhile\nfunction\nfor\nin\nnext\nbreak\nreturn\nswitch\ntryCatch\ntry\nstop\nwarning\nmessage\non.exit\nsys.call\nTRUE\nFALSE\nNULL\nNA\nNA_integer_\nNA_real_\nNA_complex_\nNA_character_\nInf\nNaN\nlibrary\nrequire\nsource\nsetwd\ngetwd",
+    "print\ncat\npaste\npaste0\nsprintf\nformat\nnchar\nsubstr\nsubstring\ngsub\nsub\ngrep\ngrepl\nregexpr\nregmatches\nstrsplit\ntolower\ntoupper\ntrimws\nnumeric\ninteger\ncharacter\nlogical\ncomplex\nvector\nlist\nmatrix\ndata.frame\nfactor\narray\nis.na\nis.null\nis.numeric\nis.character\nis.logical\nas.numeric\nas.character\nas.integer\nas.logical\nas.data.frame\nas.matrix",
+    "c\nseq\nseq_len\nseq_along\nrep\nrep_len\nlength\nnrow\nncol\ndim\nnames\ncolnames\nrownames\nhead\ntail\nstr\nsummary\nclass\ntypeof\nmode\nattr\nattributes\nwhich\nwhich.min\nwhich.max\nmin\nmax\nsum\nmean\nmedian\nsd\nvar\nrange\ncumsum\ncumprod\ncummax\ncummin\ndiff\nsort\norder\nrank\nrev\nunique\nduplicated\ntable\nmerge\nrbind\ncbind\napply\nsapply\nlapply\nvapply\ntapply\nmapply\ndo.call\nReduce\nFilter\nMap",
+    "read.csv\nread.table\nread.delim\nwrite.csv\nwrite.table\nreadRDS\nsaveRDS\nload\nsave\nreadLines\nwriteLines\nfile\nfile.exists\nfile.path\nfile.copy\nfile.remove\ndir.create\nlist.files\nbasename\ndirname\nnormalizePath\nSys.time\nSys.sleep\nproc.time\nsystem\nsystem2",
+    "ggplot\naes\ngeom_point\ngeom_line\ngeom_bar\ngeom_histogram\ngeom_boxplot\ngeom_smooth\ngeom_text\ngeom_tile\ngeom_area\ngeom_density\ngeom_col\nfacet_wrap\nfacet_grid\ntheme\ntheme_minimal\ntheme_bw\nlabs\nxlab\nylab\nggtitle\nscale_x_continuous\nscale_y_continuous\nscale_color_manual\nscale_fill_manual\ncoord_flip\ngeom_sf\nst_read\nst_write\nst_crs\nst_transform\nst_buffer\nst_intersection\nst_union",
+    "dplyr\ntidyr\npurrr\ntibble\nreadr\nstringr\nforcats\nlubridate\nselect\nfilter\nmutate\nsummarise\nsummarize\ngroup_by\nungroup\narrange\ncount\nrename\npull\nslice\ndistinct\npivot_longer\npivot_wider\nseparate\nunite\nnest\nunnest\nmap\nmap_chr\nmap_dbl\nmap_int\nmap_lgl\nmap2\npmap"
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [],
+  "operators1": "= + - * / ^ %% %/% == != > < >= <= & && | || ! : ~",
+  "delimiters": [
+    {
+      "open": "\"",
+      "escape": "\\",
+      "close": "\""
+    },
+    {
+      "open": "'",
+      "escape": "\\",
+      "close": "'"
+    }
+  ],
+  "folding": {
+    "comment_open": "function",
+    "comment_middle": "",
+    "comment_close": "}",
+    "code1_open": "if",
+    "code1_middle": "else",
+    "code1_close": "}",
+    "code2_open": "for",
+    "code2_middle": "",
+    "code2_close": "}",
+    "code3_open": "while",
+    "code3_middle": "",
+    "code3_close": "}",
+    "compact": false
+  }
+}

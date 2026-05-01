@@ -1,0 +1,28 @@
+[general]
+name=QFAT04 CodePad--
+qgisMinimumVersion=3.34
+version=1.0.53
+description=Extensible dockable QGIS code editor for TUFLOW and 12+ languages, with customizable syntax highlighting, script console, and modular add-ons.
+author=FG
+about=A powerful, extensible QGIS code editor inspired by Notepad++ and VS Code, delivering a streamlined development environment within your GIS workflow—built for modellers and general coding and scripting.
+    • 12 built-in languages (TUFLOW, Python, R, SQL, HTML, CMD and more)
+    • Language Editor for full syntax customisation
+    • Custom themes with a 3-tier colour system and Theme Editor
+    • Code folding, line numbers, zoom, and encoding tools
+    • Docked or floating layout with persistent workspace
+    • Fast QScintilla-based editor optimised for large files
+    • Script runner (F5 internal console, F6 external terminal)
+    • Configurable interpreters for Python, PowerShell, and R
+    • Find/Replace with file-based results navigation
+    • Modular addon system with custom extensions
+    • Drag-and-drop file support from QGIS and tab bar
+    • Load, locate, and create TUFLOW layers in QGIS from command text.
+    This tool is part of QFAT (QGIS Flood Analysis Toolkit) — a set of focused QGIS utilities for flood modelling workflows (TUFLOW, HEC-RAS), hydraulic QA, and rapid engineering checks.
+tags=editor,code,script,tuflow,flood,flood modelling,hydraulic,IDE,notepad,coding,programming,developer,python,r,batch,powershell,sql,json,yaml,markdown,html,xml,scripting,console,terminal,dockable,dock,addon,text editor,syntax,highlighting,qscintilla,customizable,modeller,engineering,workflow,automation,vscode,tabs,restore,highlighter
+icon=icon.png
+homepage=https://github.com/FGE-2025/QFAT04_CodePad--
+tracker=
+repository=
+experimental=True
+deprecated=False
+hasProcessingProvider=no

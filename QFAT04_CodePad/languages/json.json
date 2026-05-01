@@ -1,0 +1,50 @@
+{
+  "default_name": "JSON",
+  "base": "text",
+  "extensions": [
+    "json",
+    "geojson"
+  ],
+  "comment_prefixes": [],
+  "case_sensitive": true,
+  "builtin": true,
+  "keywords": [
+    "true",
+    "false",
+    "null"
+  ],
+  "keyword_groups": [
+    "true\nfalse\nnull",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [],
+  "operators1": ": ,",
+  "delimiters": [
+    {
+      "open": "\"",
+      "escape": "\\",
+      "close": "\""
+    }
+  ],
+  "folding": {}
+}

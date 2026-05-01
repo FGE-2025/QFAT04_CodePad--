@@ -1,0 +1,43 @@
+{
+  "default_name": "Batch/CMD",
+  "base": "batch",
+  "extensions": [
+    "bat",
+    "cmd"
+  ],
+  "case_sensitive": false,
+  "builtin": true,
+  "comment_prefixes": [
+    "REM",
+    "::"
+  ],
+  "keywords": [],
+  "keyword_groups": [
+    "if\nelse\ngoto\ncall\nset\necho\nfor\npause\nexit\nstart",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [
+    "%...%",
+    "!...!"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "default_name": "Python",
+  "base": "python",
+  "extensions": [
+    "py",
+    "pyw",
+    "pyi"
+  ],
+  "comment_prefixes": [
+    "#"
+  ],
+  "case_sensitive": true,
+  "builtin": true,
+  "keywords": [
+    "False",
+    "None",
+    "True",
+    "and",
+    "as",
+    "assert",
+    "async",
+    "await",
+    "break",
+    "class",
+    "continue",
+    "def",
+    "del",
+    "elif",
+    "else",
+    "except",
+    "finally",
+    "for",
+    "from",
+    "global",
+    "if",
+    "import",
+    "in",
+    "is",
+    "lambda",
+    "nonlocal",
+    "not",
+    "or",
+    "pass",
+    "raise",
+    "return",
+    "try",
+    "while",
+    "with",
+    "yield"
+  ],
+  "keyword_groups": [
+    "False\nNone\nTrue\nand\nas\nassert\nasync\nawait\nbreak\nclass\ncontinue\ndef\ndel\nelif\nelse\nexcept\nfinally\nfor\nfrom\nglobal\nif\nimport\nin\nis\nlambda\nnonlocal\nnot\nor\npass\nraise\nreturn\ntry\nwhile\nwith\nyield",
+    "print\nlen\nrange\ntype\nint\nfloat\nstr\nlist\ndict\ntuple\nset\nbool\nbytes\nbytearray\nmemoryview\nenumerate\nzip\nmap\nfilter\nsorted\nreversed\nabs\nmin\nmax\nsum\nround\ninput\nopen\nhasattr\ngetattr\nsetattr\ndelattr\nisinstance\nissubclass\nsuper\nproperty\nstaticmethod\nclassmethod",
+    "self\ncls\n__init__\n__name__\n__main__\n__file__\n__doc__\n__all__\n__dict__\n__class__\n__str__\n__repr__\n__len__\n__getitem__\n__setitem__\n__delitem__\n__iter__\n__next__\n__enter__\n__exit__\n__call__",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [],
+  "operators1": "= + - * / % ** // == != > < >= <= & | ^ ~ << >> @ :=",
+  "delimiters": [
+    {
+      "open": "\"",
+      "escape": "\\",
+      "close": "\""
+    },
+    {
+      "open": "'",
+      "escape": "\\",
+      "close": "'"
+    },
+    {
+      "open": "\"\"\"",
+      "escape": "",
+      "close": "\"\"\""
+    },
+    {
+      "open": "'''",
+      "escape": "",
+      "close": "'''"
+    },
+    {
+      "open": "f\"",
+      "escape": "\\",
+      "close": "\""
+    }
+  ],
+  "folding": {},
+  "path_pattern": "[A-Za-z]:\\\\[^\\s,!]+|\\.\\..?[\\\\\\/][^\\s,!]+|[\\/\\\\][^\\s,!]+"
+}

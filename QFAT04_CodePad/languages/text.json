@@ -1,0 +1,13 @@
+{
+  "default_name": "Plain Text",
+  "base": "text",
+  "extensions": [
+    "txt",
+    "csv",
+    "ini"
+  ],
+  "case_sensitive": false,
+  "builtin": true,
+  "comment_prefixes": [],
+  "keywords": []
+}

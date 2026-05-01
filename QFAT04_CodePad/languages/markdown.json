@@ -1,0 +1,63 @@
+{
+  "default_name": "Markdown",
+  "base": "text",
+  "extensions": [
+    "md",
+    "markdown",
+    "mkd"
+  ],
+  "comment_prefixes": [],
+  "case_sensitive": false,
+  "builtin": true,
+  "keywords": [],
+  "keyword_groups": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "keyword_group_styles": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5",
+    "keyword6"
+  ],
+  "prefix_modes": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "variable_patterns": [],
+  "operators1": "",
+  "delimiters": [
+    {
+      "open": "`",
+      "escape": "",
+      "close": "`"
+    },
+    {
+      "open": "**",
+      "escape": "",
+      "close": "**"
+    },
+    {
+      "open": "*",
+      "escape": "",
+      "close": "*"
+    },
+    {
+      "open": "~~",
+      "escape": "",
+      "close": "~~"
+    }
+  ],
+  "path_pattern": "\\[([^\\]]+)\\]\\(([^)]+)\\)|https?://[^\\s)>]+",
+  "folding": {}
+}
