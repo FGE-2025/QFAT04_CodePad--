@@ -134,7 +134,7 @@ def _run_script(dock):
 
     try:
         code = compile(text, script_name, "exec")
-        exec(code, g)
+        exec(code, g)  # nosec B102 - intentional: user script execution (editor feature)
     except SyntaxError as e:
         err_msg = "SyntaxError: %s (line %s)" % (e.msg, e.lineno)
         stderr_capture.write(err_msg + "\n")
