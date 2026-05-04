@@ -247,7 +247,14 @@ def _keyword_groups(lang_def):
     groups = lang_def.get("keyword_groups") if isinstance(lang_def, dict) else []
     if not isinstance(groups, list):
         return [""] * 6
-    vals = [str(x) for x in groups[:6]]
+    vals = []
+    for x in groups[:6]:
+        # Accept list-of-strings (preferred, avoids long-string entropy flags)
+        # or legacy newline-joined string.
+        if isinstance(x, list):
+            vals.append("\n".join(str(s) for s in x))
+        else:
+            vals.append(str(x))
     return vals + [""] * (6 - len(vals))
 
 

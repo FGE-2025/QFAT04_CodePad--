@@ -437,7 +437,12 @@ def _clean_language_fields(lang):
         return out
     groups = lang.get("keyword_groups")
     if isinstance(groups, list):
-        gs = [str(x) for x in groups[:6]]
+        gs = []
+        for x in groups[:6]:
+            if isinstance(x, list):
+                gs.append("\n".join(str(s) for s in x))
+            else:
+                gs.append(str(x))
         out["keyword_groups"] = gs + [""] * (6 - len(gs))
     pm = lang.get("prefix_modes")
     if isinstance(pm, list):

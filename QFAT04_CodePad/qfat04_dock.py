@@ -1957,7 +1957,7 @@ class QFAT04Dock(QDockWidget):
             }
             with open(path, "r", encoding="utf-8") as f:
                 code = f.read()
-            exec(compile(code, path, "exec"), run_globals)
+            exec(compile(code, path, "exec"), run_globals)  # nosec B102 - intentional: user script execution (editor feature)
 
         except Exception:
             capture.write("\n" + traceback.format_exc())
@@ -2323,7 +2323,7 @@ class QFAT04Dock(QDockWidget):
         stderr_buf = io.StringIO()
         try:
             with contextlib.redirect_stdout(stdout_buf), contextlib.redirect_stderr(stderr_buf):
-                exec(code_str, {"__builtins__": __builtins__, "iface": self.iface,
+                exec(code_str, {"__builtins__": __builtins__, "iface": self.iface,  # nosec B102 - intentional: user script execution (editor feature)
                                 "QgsProject": __import__("qgis.core", fromlist=["QgsProject"]).QgsProject})
         except Exception as e:
             stderr_buf.write(str(e))

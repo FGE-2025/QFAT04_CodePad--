@@ -1372,7 +1372,12 @@ class LanguageEditorDialog(QDialog):
     def _split_keywords_for_display(self, prof):
         groups = prof.get("keyword_groups")
         if isinstance(groups, list) and groups:
-            gs = [str(x) for x in groups[:6]]
+            gs = []
+            for x in groups[:6]:
+                if isinstance(x, list):
+                    gs.append("\n".join(str(s) for s in x))
+                else:
+                    gs.append(str(x))
             return gs + [""] * (6 - len(gs))
         kw = [str(x).strip() for x in prof.get("keywords", []) if str(x).strip()]
         gs    = [""] * 6
@@ -1852,7 +1857,12 @@ class LanguageEditorDialog(QDialog):
         elif tab_key == "keywords":
             groups = default.get("keyword_groups", [""] * 6)
             for i in range(6):
-                self.keyword_edits[i].setPlainText(groups[i] if i < len(groups) else "")
+                if i < len(groups):
+                    g = groups[i]
+                    text = "\n".join(str(s) for s in g) if isinstance(g, list) else str(g)
+                else:
+                    text = ""
+                self.keyword_edits[i].setPlainText(text)
                 pm = default.get("prefix_modes", [False] * 6)
                 self.prefix_checks[i].setChecked(bool(pm[i]) if i < len(pm) else False)
         elif tab_key == "numbers":
